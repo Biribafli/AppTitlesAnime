@@ -1,4 +1,4 @@
-namespace AppTitlesAnime
+namespace AppTitlesAnime.Models
 {
     internal static class Program
     {
