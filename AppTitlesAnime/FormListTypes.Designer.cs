@@ -50,7 +50,7 @@
             flowLayoutPanelTop.Location = new Point(0, 0);
             flowLayoutPanelTop.Name = "flowLayoutPanelTop";
             flowLayoutPanelTop.Padding = new Padding(10);
-            flowLayoutPanelTop.Size = new Size(1257, 61);
+            flowLayoutPanelTop.Size = new Size(864, 61);
             flowLayoutPanelTop.TabIndex = 0;
             // 
             // btnAddType
@@ -91,7 +91,7 @@
             dataGridViewTypes.Location = new Point(10, 10);
             dataGridViewTypes.Name = "dataGridViewTypes";
             dataGridViewTypes.ReadOnly = true;
-            dataGridViewTypes.Size = new Size(1237, 669);
+            dataGridViewTypes.Size = new Size(844, 423);
             dataGridViewTypes.TabIndex = 1;
             // 
             // panelFill
@@ -101,21 +101,21 @@
             panelFill.Location = new Point(0, 61);
             panelFill.Name = "panelFill";
             panelFill.Padding = new Padding(10);
-            panelFill.Size = new Size(1257, 689);
+            panelFill.Size = new Size(864, 443);
             panelFill.TabIndex = 2;
             // 
             // FormListTypes
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1257, 750);
+            ClientSize = new Size(864, 504);
             Controls.Add(panelFill);
             Controls.Add(flowLayoutPanelTop);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             Margin = new Padding(5);
             Name = "FormListTypes";
             Text = "Список типов аниме";
-            Load += FormListTypes_Load;
+            Load += BtnAddType_Click;
             flowLayoutPanelTop.ResumeLayout(false);
             flowLayoutPanelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewTypes).EndInit();
