@@ -17,5 +17,11 @@
         {
 
         }
+
+        private void btnShowGenres_Click(object sender, EventArgs e)
+        {
+            FormListGenres formListGenres = new FormListGenres();
+            formListGenres.Show();
+        }
     }
 }

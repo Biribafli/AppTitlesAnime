@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnShowTypes = new Button();
+            btnShowGenres = new Button();
             SuspendLayout();
             // 
             // btnShowTypes
@@ -43,12 +44,23 @@
             btnShowTypes.UseVisualStyleBackColor = true;
             btnShowTypes.Click += BtnShowTypes_Click;
             // 
+            // btnShowGenres
+            // 
+            btnShowGenres.Location = new Point(27, 94);
+            btnShowGenres.Name = "btnShowGenres";
+            btnShowGenres.Size = new Size(313, 38);
+            btnShowGenres.TabIndex = 1;
+            btnShowGenres.Text = "Отобразить список \"Жанры\"";
+            btnShowGenres.UseVisualStyleBackColor = true;
+            btnShowGenres.Click += btnShowGenres_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1116, 554);
+            Controls.Add(btnShowGenres);
             Controls.Add(btnShowTypes);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
             Margin = new Padding(5);
@@ -62,5 +74,6 @@
         #endregion
 
         private Button btnShowTypes;
+        private Button btnShowGenres;
     }
 }
